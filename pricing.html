@@ -83,7 +83,10 @@ img{
          background-size: 100% 100%;
       }
 
-
+.d{
+  font-size: 2em;
+  color: darkorange;
+}
       .nav-scroller .nav {
         display: flex;
         flex-wrap: nowrap;
@@ -94,6 +97,10 @@ img{
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      a[target="_blank"] {
+  /* Establecer el estilo para abrir el enlace en otra pestaña */
+  target-new: tab;
+}
       
       td{
         color: green;
@@ -130,9 +137,9 @@ img{
       </a>
 
       <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Instagram</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Twiter</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Soporte</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.instagram.com/dazn_es/?hl=en">Instagram</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://twitter.com/DAZN_ES?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twiter</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" target="_blank" href="https://www.dazn.com/es-ES/help/articles/how-do-i-contact-dazn">Soporte</a>
       </nav>
     </div>
 
@@ -154,7 +161,7 @@ img{
             <ul class="list-unstyled mt-3 mb-4">
               <li style="color: greenyellow;">Futbol Femenino</li>
               <li style="color: greenyellow;">Documentales Especiales</li>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Contratalo</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary" ><a href="https://www.dazn.com" target="_blank" style="color: red;">CONTRATALO</a></button>
 
             </ul>
             
@@ -174,7 +181,7 @@ img{
               <li style="color: greenyellow;">Baloncesto</li>
               <li style="color: greenyellow;">Documentales Originales</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Contratalo</button>
+            <button type="button" class="w-100 btn btn-lg btn-primary"><a href="https://www.dazn.com" target="_blank" style="color: red;">CONTRATALO</a></button>
           </div>
         </div>
       </div>
@@ -184,14 +191,14 @@ img{
             <h4 class="my-0 fw-normal">Todo Incluido</h4>
           </div>
           <div class="card-body ti">
-            <h1 class="card-title pricing-card-title">29.99€<small class="text-muted fw-light">/mes</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
+            <h1 class="card-title pricing-card-title" style="color: blasck">29.99€<small class="text-muted fw-light">/mes</small></h1>
+            <ul class="list-unstyled mt-3 mb-4 d">
               <li>Toda la liga Santander y Premier League</li>
               <li>F1 y Moto GP</li>
               <li>Baloncesto</li>
               <li>Programas Deportivos</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">CONTRATALO</button>
+            <button type="button" class="w-100 btn btn-lg btn-primary"><a href="https://www.dazn.com" target="_blank" style="color: red;">CONTRATALO</a></button>
           </div>
         </div>
       </div>
